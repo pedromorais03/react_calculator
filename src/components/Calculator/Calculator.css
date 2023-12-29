@@ -9,20 +9,21 @@
 }
 
 .display, .complete-operation{
-   width: 100%;
+   width: 230px;
    height: 50px;
    border: 1px solid black;
    margin-bottom: 10px;
    text-align: right;
    padding: 5px;
+
+   overflow: auto;
 }
 
 .complete-operation{
    height: 30px;
-   overflow: auto;
 }
 
-.buttons{
+ .buttons{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 10px;
